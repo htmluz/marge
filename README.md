@@ -2,7 +2,7 @@
 
 This is the main repository for marge, a observability system designed for Telecom providers.
 
-It aims to be an open source alternative to Voipmonitor and it takes inspirantion in OCOM using the well known Homer as a base willing to provide KPIs, statistics and better troubleshooting and undertanding of your network. It acts as a centralized server with distributed agents capturing packets in a vendor agnostic way.
+It aims to be an open source alternative to Voipmonitor and it takes inspirantion in OCOM using the well known Homer as a base willing to provide KPIs, statistics and better troubleshooting and understanding of your network. It acts as a centralized server with distributed agents capturing packets in a vendor agnostic way.
 
 We're extending a bit the HEPv3 protocol and changing how the Homer essentially works for this job so, if you don't use the docker-compose provided within this repo keep in mind to install the Heplify agent and server that we have forked, they're submodules of this repo.
 
